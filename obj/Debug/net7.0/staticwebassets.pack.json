@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\antho\\Documents\\EarthSoftAssignment\\LetterCounter\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LetterCounter.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LetterCounter.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\antho\\Documents\\EarthSoftAssignment\\LetterCounter\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\antho\\Documents\\EarthSoftAssignment\\LetterCounter\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\antho\\Documents\\EarthSoftAssignment\\LetterCounter\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LetterCounter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.LetterCounter.props",
+      "PackagePath": "build\\LetterCounter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.LetterCounter.props",
+      "PackagePath": "buildMultiTargeting\\LetterCounter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.LetterCounter.props",
+      "PackagePath": "buildTransitive\\LetterCounter.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

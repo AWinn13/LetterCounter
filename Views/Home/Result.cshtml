@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model TextViewModel
+    <div>
+        
+        <div class="d-flex">
+            <table class="table table-striped text-center border w-50 mx-auto">
+                <caption class="caption h3">Analysis of "@Model.TextInput.Text"</caption>
+                <thead>
+                    <th>Letter</th>
+                    <th>Count</th>
+                </thead>
+                <tbody>
+                    @foreach (var i in Model.CounterDict)
+                    {
+                        <tr>
+                            <td>@i.Key</td>
+                            <td>@i.Value</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div  class="w-25 mx-auto">
+                <h3>Previous Entries</h3>
+                <ul>
+                @foreach (TextInput t in Model.AllInputs)
+                    {
+                        <li><a href="/text/@t.TextInputId/result">@t.Text</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>

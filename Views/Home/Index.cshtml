@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model TextInput
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To The Letter Counter</h1>
+    <p>Enter text in the box below, hit submit, and the letter counter will get to work</p>
+    @* asp action tag helper to call the method the data will be sent to *@
+    <form asp-action="TextToDB" method="post" class="w-50 mx-auto">
+        <div class="form-floating mb-3">
+            @* Using as text area for the text input, bootstrap and CSS for UI/UX design *@
+            <textarea class="form-control " asp-for="Text" id="Text" placeholder="Enter Your Text Here"></textarea>
+            <label for="Text">Text</label>
+            @* span tage with the asp tag helper to display validations on the page *@
+            <span asp-validation-for="Text" class="text-danger"></span>
+        </div>
+        <button class="btn btn-success">Submit</button>
+    </form>
+
+</div>
